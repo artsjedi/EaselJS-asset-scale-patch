@@ -3,7 +3,7 @@ EaselJS asset scale patch
 
 This is a patch to be applied to CreateJS EaselJS and provide multiples assets sizes capabilities.
 
-this patch changes how the CreateJS EaselJS image renderer works and scale all image by a provided factor.
+This patch changes the CreateJS EaselJS renderer. It provides a way to EaselJS understand that the assets are at a different scale and correctly renders images and sprites with higher or lower resolution.
 
 It can be used to create games and apps with multiple screen resolutions support. 
 This way you can save processing and memory for each device type and take full advantage of every platform. 
