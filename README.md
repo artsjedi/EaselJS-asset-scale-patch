@@ -38,17 +38,18 @@ How to use it
 
 1.  Add the script file reference to your main html head tag just after the CreateJS script
 
-    `<script src="createjs-2013.12.12.min.js"></script>`
-    `<script src="EaselJSAssetScalePatch.js"></script>`
+        <script src="createjs-2013.12.12.min.js"></script>
+        <script src="EaselJSAssetScalePatch.js"></script>
 
 2.  Set the global variable  assetscale to the desired scale. 
 
-    `var assetscale = 1; //it can be any number`
-
+        var assetscale = 1; //it can be any number
+        
 3.  Load proper scaled image assets, by instance
 
-    `assetPath = "assets" + scale + "/";`
-    `var asset1 = new createjs.Bitmap(assetPath + "asset1.png")`  
-    `var asset2 = new createjs.Bitmap(assetPath + "asset2.png")`
+        assetPath = "assets" + scale + "/";
+        
+        var asset1 = new createjs.Bitmap(assetPath + "asset1.png")
+        var asset2 = new createjs.Bitmap(assetPath + "asset2.png")
   
 Automatically all the assets rendered with EaselJS  will be scaled by this scale factor.
