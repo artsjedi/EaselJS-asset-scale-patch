@@ -8,7 +8,9 @@ This is a patch to be applied to EaselJS (link) and provide multiples assets siz
 
 How it works
 ------------
- 
+
+ ![multi resolution sample image](/sample/patch.png "Sample image")
+
 
 How to use it
 -------------
@@ -16,7 +18,7 @@ How to use it
 
 1.  Add the script file reference to your main html head tag
 
-  '<script src="EaselJSAssetScalePatch.js "></script>'
+  <script src="EaselJSAssetScalePatch.js"></script>
 
 2.  Set the global variable  assetscale to the desired scale. 
 
