@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Sample</title>
+
+    <script src="createjs-2013.12.12.min.js"></script>
+    <script src="EaselJSAssetScalePatch.js.js"></script>
+    <script src="EaselJSImageHitAreaPatch%20.js"></script>
+    <script src="sample.js"></script>
+
+</head>
+<body onload="init(0.5);">
+    <input type="submit" value="Low Resolution screen - Asset Scale = 0.5x" onclick="init(0.5)"/>
+    <input type="submit" value="Standard - Asset Scale = 1.0x" onclick="init(1)" />
+    <input type="submit" value="High Definition - Asset Scale = 2.0x" onclick="init(2)" />
+    <br />
+    <canvas id="demoCanvas" width="1024" height="600"/>
+</body>
+
+</html>
