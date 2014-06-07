@@ -52,3 +52,5 @@ Done. CreateJS EaselJS will render all assets in its correct resolution scale.
 
 
 This repo has a simple sample for using this patch
+http://htmlpreview.github.io/?https://github.com/artsjedi/EaselJS-asset-scale-patch/blob/master/sample/index.html
+
