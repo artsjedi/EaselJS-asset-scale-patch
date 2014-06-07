@@ -42,12 +42,13 @@ How to use it
 
         var assetscale = 2; //it can be any number
         
-4.  Load proper scaled image assets, by instance
+4.  Load proper scaled image assets
 
-        var monster = new createjs.Bitmap("assets2x/monster.png") // set the folder or file to match the scale
-        var explosion = new createjs.Bitmap("assets2x/explosion.png") // set the folder or file to match the scale
+        // set the folder or file to match the scale 2x
+        var monster = new createjs.Bitmap("assets2x/monster.png") 
+        var explosion = new createjs.Bitmap("assets2x/explosion.png") 
   
-Automatically all the assets rendered with EaselJS  will be scaled by this scale factor.
+Done. CreateJS EaselJS will render all assets in its correct resolution scale.
 
 
 This repo has a simple sample for using this patch
